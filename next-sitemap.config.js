@@ -10,6 +10,7 @@ module.exports = {
     await config.transform(config, '/'),
     await config.transform(config, '/about'),
     await config.transform(config, '/ledger'),
+    await config.transform(config, '/ledger/laurus-labs-metamorphosis'),
   ],
   robotsTxtOptions: {
     policies: [

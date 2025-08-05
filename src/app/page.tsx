@@ -22,119 +22,118 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-black text-purple-500 p-8 font-mono">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-100 z-50">
-        <div className="max-w-4xl mx-auto px-6 py-4">
-          <div className="flex justify-between items-center">
-            <Link href="/" className="text-xl font-bold text-gray-900">
-              Abhay Jain
-            </Link>
-            <div className="flex space-x-6">
-              <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
-                About
-              </Link>
-              <Link href="/ledger" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Ledger
-              </Link>
-            </div>
-          </div>
+      <nav className="mb-16">
+        <div className="flex space-x-8 text-lg">
+          <Link href="/" className="underline">
+            home
+          </Link>
+          <Link href="/ledger" className="underline">
+            ledger
+          </Link>
+          <Link href="/about" className="underline">
+            about me
+          </Link>
         </div>
       </nav>
 
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-6 pt-32 pb-20">
-        {/* Hero Section */}
-        <div className="mb-16">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Abhay Jain
-          </h1>
-          <p className="text-xl text-gray-600 mb-2">
-            19, New Delhi
-          </p>
-          <p className="text-lg text-gray-700 max-w-2xl leading-relaxed">
-            Currently running{" "}
+      <main className="max-w-4xl space-y-8">
+        {/* Title */}
+        <h1 className="text-4xl font-bold underline mb-8">
+          Abhay Jain
+        </h1>
+
+        {/* Basic Info */}
+        <p className="text-xl">
+          19, new delhi
+        </p>
+
+        {/* Current Work */}
+        <p className="text-lg leading-relaxed">
+          currently running{" "}
+          <a 
+            href="https://www.lindygeo.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Lindy GEO
+          </a>
+          , the first agency scaling brands by ensuring that they rank first in LLM-Generated Answers.
+        </p>
+
+        {/* Social Links */}
+        <div className="space-y-2">
+          <p className="inline">
+            <span className="bg-purple-500 text-black px-2 py-1 mr-2">
+              connect with me on socials:
+            </span>
             <a 
-              href="https://www.lindygeo.com/" 
+              href="https://x.com/abhayadityajain" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800 underline"
+              className="underline mr-2"
             >
-              Lindy GEO
+              x
             </a>
-            , the first agency scaling brands by ensuring that they rank first in LLM-Generated Answers.
+            ,{" "}
+            <a 
+              href="https://www.linkedin.com/in/abhayadityajain/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline mr-2"
+            >
+              linkedin
+            </a>
+            ,{" "}
+            <a 
+              href="https://onfel1000.substack.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              substack
+            </a>
           </p>
         </div>
 
-        {/* Contact Section */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-6">Connect</h2>
-          <div className="space-y-4">
-            <div>
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Social Media</h3>
-              <div className="flex flex-wrap gap-4">
-                <a 
-                  href="https://x.com/abhayadityajain" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
-                >
-                  X (Twitter)
-                </a>
-                <a 
-                  href="https://www.linkedin.com/in/abhayadityajain/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                >
-                  LinkedIn
-                </a>
-                <a 
-                  href="https://onfel1000.substack.com/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
-                >
-                  Substack
-                </a>
-              </div>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Email</h3>
-              <div className="space-y-2">
-                <a 
-                  href="mailto:abhayadityajain@gmail.com"
-                  className="block text-blue-600 hover:text-blue-800 underline"
-                >
-                  abhayadityajain@gmail.com
-                </a>
-                <a 
-                  href="mailto:abhay@lindygeo.com"
-                  className="block text-blue-600 hover:text-blue-800 underline"
-                >
-                  abhay@lindygeo.com
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* CTA Section */}
-        <div className="bg-gray-50 rounded-2xl p-8 text-center">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-            Wanna chat? Let&apos;s do it
-          </h2>
-          <p className="text-gray-600 mb-6">
-            Reach out via any of the channels above or drop me a line.
-          </p>
+        {/* Email */}
+        <p className="text-lg">
+          email:{" "}
+          <a 
+            href="mailto:abhayadityajain@gmail.com"
+            className="underline"
+          >
+            abhayadityajain@gmail.com
+          </a>
+          {" | "}
           <a 
             href="mailto:abhay@lindygeo.com"
-            className="inline-flex items-center px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="underline"
           >
-            Get in Touch
+            abhay@lindygeo.com
           </a>
-        </div>
+        </p>
+
+        {/* CTA */}
+        <p className="text-lg">
+          wanna chat?{" "}
+          <a 
+            href="mailto:abhay@lindygeo.com"
+            className="underline"
+          >
+            lets do it
+          </a>
+        </p>
+
+        {/* Sitemap */}
+        <p className="text-lg pt-8">
+          <Link href="/sitemap.xml" className="underline">
+            sitemap
+          </Link>
+        </p>
       </main>
 
       {/* Structured Data */}

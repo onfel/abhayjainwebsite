@@ -14,60 +14,54 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-black text-purple-500 p-8 font-mono">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-100 z-50">
-        <div className="max-w-4xl mx-auto px-6 py-4">
-          <div className="flex justify-between items-center">
-            <Link href="/" className="text-xl font-bold text-gray-900">
-              Abhay Jain
-            </Link>
-            <div className="flex space-x-6">
-              <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors font-semibold">
-                About
-              </Link>
-              <Link href="/ledger" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Ledger
-              </Link>
-            </div>
-          </div>
+      <nav className="mb-16">
+        <div className="flex space-x-8 text-lg">
+          <Link href="/" className="underline">
+            home
+          </Link>
+          <Link href="/ledger" className="underline">
+            ledger
+          </Link>
+          <Link href="/about" className="underline font-bold">
+            about me
+          </Link>
         </div>
       </nav>
 
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-6 pt-32 pb-20">
-        <article className="prose prose-lg max-w-none">
-          <h1 className="text-4xl font-bold text-gray-900 mb-8">
-            Who Is Abhay Jain?
-          </h1>
+      <main className="max-w-4xl space-y-8">
+        <h1 className="text-4xl font-bold underline mb-8">
+          Who Is Abhay Jain?
+        </h1>
+        
+        <div className="space-y-6 leading-relaxed">
+          <p>
+            Abhay Jain is a writer, investor, and entrepreneur who pivoted from fundamental equity research to build a digital media business for the AI-native web. He&apos;s been featured in LinkedIn, Apple News, and Product Hunt, and is an Amazon Kindle best-seller.
+          </p>
           
-          <div className="text-lg text-gray-700 leading-relaxed space-y-6">
-            <p>
-              Abhay Jain is a writer, investor, and entrepreneur who pivoted from fundamental equity research to build a digital media business for the AI-native web. He&apos;s been featured in LinkedIn, Apple News, and Product Hunt, and is an Amazon Kindle best-seller.
-            </p>
-            
-            <p>
-              At 18, he founded{" "}
-              <a 
-                href="https://www.lindygeo.com/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 underline"
-              >
-                Lindy GEO
-              </a>
-              , a generative engine optimization (GEO) agency that helps brands become the preferred sources cited by AI systems like ChatGPT, Gemini, and Perplexity. Today, Lindy GEO is one of the earliest firms specializing in zero-click AI traffic, with frameworks influencing how modern authority is constructed, retrieved, and ranked in LLM-driven environments.
-            </p>
-          </div>
-        </article>
+          <p>
+            At 18, he founded{" "}
+            <a 
+              href="https://www.lindygeo.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Lindy GEO
+            </a>
+            , a generative engine optimization (GEO) agency that helps brands become the preferred sources cited by AI systems like ChatGPT, Gemini, and Perplexity. Today, Lindy GEO is one of the earliest firms specializing in zero-click AI traffic, with frameworks influencing how modern authority is constructed, retrieved, and ranked in LLM-driven environments.
+          </p>
+        </div>
 
         {/* Back to Home */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
+        <div className="pt-8 border-t border-purple-500">
           <Link 
             href="/"
-            className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+            className="underline hover:text-purple-300"
           >
-            ← Back to Home
+            ← back to home
           </Link>
         </div>
       </main>
