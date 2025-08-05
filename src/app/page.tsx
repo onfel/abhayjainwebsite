@@ -26,13 +26,13 @@ export default function Home() {
       {/* Navigation */}
       <nav className="mb-16">
         <div className="flex space-x-8 text-lg">
-          <Link href="/" className="bg-purple-500 text-black px-1 hover:bg-purple-400">
+          <Link href="/" className="text-white hover:text-gray-300 underline">
             home
           </Link>
-          <Link href="/ledger" className="bg-purple-500 text-black px-1 hover:bg-purple-400">
+          <Link href="/ledger" className="text-white hover:text-gray-300 underline">
             ledger
           </Link>
-          <Link href="/about" className="bg-purple-500 text-black px-1 hover:bg-purple-400">
+          <Link href="/about" className="text-white hover:text-gray-300 underline">
             about me
           </Link>
         </div>
@@ -57,24 +57,25 @@ export default function Home() {
             href="https://www.lindygeo.com/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-purple-500 text-black px-1 hover:bg-purple-400"
+            className="text-white underline hover:text-gray-300"
           >
             Lindy GEO
           </a>
-          , the first agency scaling brands by ensuring that they rank first in LLM-Generated Answers.
+          , the first agency scaling brands by<br/>
+          ensuring that they rank first in LLM-Generated Answers.
         </p>
 
         {/* Social Links */}
         <div className="space-y-2">
           <p className="inline">
-            <span className="bg-purple-500 text-black px-2 py-1 mr-2">
+            <span className="bg-purple-500 text-black px-2 py-1 rounded mr-2">
               connect with me on socials:
             </span>
             <a 
               href="https://x.com/abhayadityajain" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-purple-500 text-black px-1 hover:bg-purple-400 mr-2"
+              className="text-white underline hover:text-gray-300 mr-2"
             >
               x
             </a>
@@ -83,7 +84,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/abhayadityajain/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-purple-500 text-black px-1 hover:bg-purple-400 mr-2"
+              className="text-white underline hover:text-gray-300 mr-2"
             >
               linkedin
             </a>
@@ -92,7 +93,7 @@ export default function Home() {
               href="https://onfel1000.substack.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-purple-500 text-black px-1 hover:bg-purple-400"
+              className="text-white underline hover:text-gray-300"
             >
               substack
             </a>
@@ -104,14 +105,14 @@ export default function Home() {
           email:{" "}
           <a 
             href="mailto:abhayadityajain@gmail.com"
-            className="bg-purple-500 text-black px-1 hover:bg-purple-400"
+            className="text-white underline hover:text-gray-300"
           >
             abhayadityajain@gmail.com
           </a>
           {" | "}
           <a 
             href="mailto:abhay@lindygeo.com"
-            className="bg-purple-500 text-black px-1 hover:bg-purple-400"
+            className="text-white underline hover:text-gray-300"
           >
             abhay@lindygeo.com
           </a>
@@ -122,7 +123,7 @@ export default function Home() {
           wanna chat?{" "}
           <a 
             href="mailto:abhay@lindygeo.com"
-            className="bg-purple-500 text-black px-1 hover:bg-purple-400"
+            className="text-white underline hover:text-gray-300"
           >
             lets do it
           </a>
@@ -130,7 +131,7 @@ export default function Home() {
 
         {/* Sitemap */}
         <p className="text-lg pt-8">
-          <Link href="/sitemap.xml" className="bg-purple-500 text-black px-1 hover:bg-purple-400">
+          <Link href="/sitemap.xml" className="text-white underline hover:text-gray-300">
             sitemap
           </Link>
         </p>
