@@ -201,7 +201,7 @@ export default function SolaraThesis() {
             "author": {
               "@type": "Person",
               "name": "Abhay Jain",
-              "url": "https://abhayjain.com"
+              "url": "https://abhayadityajain.com"
             },
             "datePublished": "2025-02-15",
             "dateModified": "2025-02-15",
@@ -209,7 +209,7 @@ export default function SolaraThesis() {
             "keywords": "Solara Active Pharma Sciences, investment thesis, antifragility, CRAMS, pharmaceutical, equity research",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://abhayjain.com/ledger/solara-virtue-getting-wrecked"
+              "@id": "https://abhayadityajain.com/ledger/solara-virtue-getting-wrecked"
             },
             "publisher": {
               "@type": "Person",

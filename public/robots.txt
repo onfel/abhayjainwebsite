@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://abhayjain.com
+Host: https://abhayadityajain.com
 
 # Sitemaps
-Sitemap: https://abhayjain.com/sitemap.xml
+Sitemap: https://abhayadityajain.com/sitemap.xml

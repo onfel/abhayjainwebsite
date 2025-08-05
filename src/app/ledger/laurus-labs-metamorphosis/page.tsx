@@ -213,7 +213,7 @@ export default function LaurusLabsThesis() {
             "author": {
               "@type": "Person",
               "name": "Abhay Jain",
-              "url": "https://abhayjain.com"
+              "url": "https://abhayadityajain.com"
             },
             "datePublished": "2025-02-10",
             "dateModified": "2025-02-10",
@@ -221,7 +221,7 @@ export default function LaurusLabsThesis() {
             "keywords": "Laurus Labs, investment thesis, antifragility, CDMO, pharmaceutical, equity research",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://abhayjain.com/ledger/laurus-labs-metamorphosis"
+              "@id": "https://abhayadityajain.com/ledger/laurus-labs-metamorphosis"
             },
             "publisher": {
               "@type": "Person",

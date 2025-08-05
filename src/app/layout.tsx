@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   keywords: "Abhay Jain, entrepreneur, investor, writer, Lindy GEO, AI, SEO, GEO, Delhi",
   authors: [{ name: "Abhay Jain" }],
   creator: "Abhay Jain",
-  metadataBase: new URL("https://abhayjain.com"),
+  metadataBase: new URL("https://abhayadityajain.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://abhayjain.com",
+    url: "https://abhayadityajain.com",
     siteName: "Abhay Jain",
     title: "Abhay Jain - Entrepreneur, Investor & Writer",
     description: "19-year-old entrepreneur running Lindy GEO, the first agency scaling brands by ensuring they rank first in LLM-Generated Answers.",
