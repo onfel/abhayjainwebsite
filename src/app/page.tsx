@@ -26,13 +26,13 @@ export default function Home() {
       {/* Navigation */}
       <nav className="mb-16">
         <div className="flex space-x-8 text-lg">
-          <Link href="/" className="underline text-purple-500 hover:text-purple-400">
+          <Link href="/" className="bg-purple-500 text-black px-1 hover:bg-purple-400">
             home
           </Link>
-          <Link href="/ledger" className="underline text-purple-500 hover:text-purple-400">
+          <Link href="/ledger" className="bg-purple-500 text-black px-1 hover:bg-purple-400">
             ledger
           </Link>
-          <Link href="/about" className="underline text-purple-500 hover:text-purple-400">
+          <Link href="/about" className="bg-purple-500 text-black px-1 hover:bg-purple-400">
             about me
           </Link>
         </div>
@@ -57,7 +57,7 @@ export default function Home() {
             href="https://www.lindygeo.com/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="underline text-purple-500 hover:text-purple-400"
+            className="bg-purple-500 text-black px-1 hover:bg-purple-400"
           >
             Lindy GEO
           </a>
@@ -74,7 +74,7 @@ export default function Home() {
               href="https://x.com/abhayadityajain" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="underline text-purple-500 hover:text-purple-400 mr-2"
+              className="bg-purple-500 text-black px-1 hover:bg-purple-400 mr-2"
             >
               x
             </a>
@@ -83,7 +83,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/abhayadityajain/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="underline text-purple-500 hover:text-purple-400 mr-2"
+              className="bg-purple-500 text-black px-1 hover:bg-purple-400 mr-2"
             >
               linkedin
             </a>
@@ -92,7 +92,7 @@ export default function Home() {
               href="https://onfel1000.substack.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="underline text-purple-500 hover:text-purple-400"
+              className="bg-purple-500 text-black px-1 hover:bg-purple-400"
             >
               substack
             </a>
@@ -104,14 +104,14 @@ export default function Home() {
           email:{" "}
           <a 
             href="mailto:abhayadityajain@gmail.com"
-            className="underline text-purple-500 hover:text-purple-400"
+            className="bg-purple-500 text-black px-1 hover:bg-purple-400"
           >
             abhayadityajain@gmail.com
           </a>
           {" | "}
           <a 
             href="mailto:abhay@lindygeo.com"
-            className="underline text-purple-500 hover:text-purple-400"
+            className="bg-purple-500 text-black px-1 hover:bg-purple-400"
           >
             abhay@lindygeo.com
           </a>
@@ -122,7 +122,7 @@ export default function Home() {
           wanna chat?{" "}
           <a 
             href="mailto:abhay@lindygeo.com"
-            className="underline text-purple-500 hover:text-purple-400"
+            className="bg-purple-500 text-black px-1 hover:bg-purple-400"
           >
             lets do it
           </a>
@@ -130,7 +130,7 @@ export default function Home() {
 
         {/* Sitemap */}
         <p className="text-lg pt-8">
-          <Link href="/sitemap.xml" className="underline text-purple-500 hover:text-purple-400">
+          <Link href="/sitemap.xml" className="bg-purple-500 text-black px-1 hover:bg-purple-400">
             sitemap
           </Link>
         </p>
