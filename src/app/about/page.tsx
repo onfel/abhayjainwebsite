@@ -78,15 +78,8 @@ export default function About() {
             "familyName": "Jain",
             "email": "abhay@lindygeo.com",
             "birthDate": "2005-12-17",
-            "brand": "Lindy GEO",
             "jobTitle": "CEO",
-            "knowsAbout": "AI, SEO, Digital Media, GEO",
-            "nationality": "Indian",
-            "worksFor": {
-              "@type": "Organization",
-              "name": "Lindy GEO",
-              "url": "https://www.lindygeo.com/"
-            },
+            "knowsAbout": ["AI", "SEO", "Digital Media", "GEO"],
             "sameAs": [
               "https://www.linkedin.com/in/abhayadityajain/",
               "https://x.com/abhayadityajain",
@@ -95,8 +88,29 @@ export default function About() {
               "https://onfel1000.substack.com/"
             ],
             "description": "Writer, investor, and entrepreneur who pivoted from fundamental equity research to build a digital media business for the AI-native web. Founder of Lindy GEO.",
-            "alumniOf": "Fundamental Equity Research",
-            "award": ["LinkedIn Featured", "Apple News Featured", "Product Hunt Featured", "Amazon Kindle Best-seller"]
+            "award": [
+              "LinkedIn Featured",
+              "Apple News Featured", 
+              "Product Hunt Featured",
+              "Amazon Kindle Best-seller"
+            ],
+            "brand": {
+              "@type": "Brand",
+              "name": "Lindy GEO"
+            },
+            "nationality": {
+              "@type": "Country",
+              "name": "Indian"
+            },
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Lindy GEO",
+              "url": "https://www.lindygeo.com/"
+            },
+            "alumniOf": {
+              "@type": "Organization",
+              "name": "The Doon School"
+            }
           })
         }}
       />
