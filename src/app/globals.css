@@ -2,7 +2,7 @@
 
 :root {
   --background: #000000;
-  --foreground: #a855f7;
+  --foreground: #ffffff;
 }
 
 @theme inline {
@@ -14,8 +14,8 @@
 
 body {
   background: #000000;
-  color: #a855f7;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
 }

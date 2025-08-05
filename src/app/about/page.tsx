@@ -14,17 +14,17 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-black text-purple-500 p-8 font-mono">
+    <div className="min-h-screen bg-black text-white p-8" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
       {/* Navigation */}
       <nav className="mb-16">
         <div className="flex space-x-8 text-lg">
-          <Link href="/" className="underline">
+          <Link href="/" className="underline text-purple-500 hover:text-purple-400">
             home
           </Link>
-          <Link href="/ledger" className="underline">
+          <Link href="/ledger" className="underline text-purple-500 hover:text-purple-400">
             ledger
           </Link>
-          <Link href="/about" className="underline font-bold">
+          <Link href="/about" className="underline text-purple-500 hover:text-purple-400 font-bold">
             about me
           </Link>
         </div>
@@ -47,7 +47,7 @@ export default function About() {
               href="https://www.lindygeo.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="underline"
+              className="underline text-purple-500 hover:text-purple-400"
             >
               Lindy GEO
             </a>
@@ -59,7 +59,7 @@ export default function About() {
         <div className="pt-8 border-t border-purple-500">
           <Link 
             href="/"
-            className="underline hover:text-purple-300"
+            className="underline text-purple-500 hover:text-purple-400"
           >
             ← back to home
           </Link>

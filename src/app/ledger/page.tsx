@@ -14,17 +14,17 @@ export const metadata: Metadata = {
 
 export default function Ledger() {
   return (
-    <div className="min-h-screen bg-black text-purple-500 p-8 font-mono">
+    <div className="min-h-screen bg-black text-white p-8" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
       {/* Navigation */}
       <nav className="mb-16">
         <div className="flex space-x-8 text-lg">
-          <Link href="/" className="underline">
+          <Link href="/" className="underline text-purple-500 hover:text-purple-400">
             home
           </Link>
-          <Link href="/ledger" className="underline font-bold">
+          <Link href="/ledger" className="underline text-purple-500 hover:text-purple-400 font-bold">
             ledger
           </Link>
-          <Link href="/about" className="underline">
+          <Link href="/about" className="underline text-purple-500 hover:text-purple-400">
             about me
           </Link>
         </div>
@@ -49,13 +49,13 @@ export default function Ledger() {
           <article className="border border-purple-500 p-6 space-y-4">
             <header>
               <h3 className="text-xl font-bold">
-                <Link href="/ledger/laurus-labs-metamorphosis" className="underline hover:text-purple-300">
+                <Link href="/ledger/laurus-labs-metamorphosis" className="underline text-purple-500 hover:text-purple-400">
                   The Laurus Labs Metamorphosis: An Exercise in Antifragility
                 </Link>
               </h3>
-              <div className="text-sm text-purple-400 space-y-1">
+              <div className="text-sm text-gray-400 space-y-1">
                 <p>10 Feb 2025 • 12 min read</p>
-                <p className="text-purple-300">
+                <p className="text-gray-300">
                   Investment thesis on Laurus Labs transformation from ARV company to high-end CDMO partner, analyzing antifragility in capital allocation.
                 </p>
               </div>
@@ -67,20 +67,20 @@ export default function Ledger() {
               Indian pharmaceutical company specializing in Active Pharmaceutical Ingredients (APIs) and Contract Development & Manufacturing Organization (CDMO) services. Founded in 2005, headquartered in Hyderabad. Previously focused on antiretroviral drugs, now expanding into high-complexity molecules and biocatalysis.
             </div>
 
-            <p className="text-purple-300 leading-relaxed">
+            <p className="text-gray-300 leading-relaxed">
               If your investment thesis fits neatly on a quarterly earnings summary, you&apos;re not investing; you&apos;re participating in a mimetic fiction. Laurus is building a machine the market is structurally incapable of pricing...
             </p>
             
             <Link 
               href="/ledger/laurus-labs-metamorphosis" 
-              className="inline-block underline hover:text-purple-300"
+              className="inline-block underline text-purple-500 hover:text-purple-400"
             >
               read full thesis →
             </Link>
           </article>
 
           {/* Placeholder for future posts */}
-          <div className="text-purple-400 italic">
+          <div className="text-gray-400 italic">
             more theses coming soon...
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function Ledger() {
         <div className="pt-8 border-t border-purple-500">
           <Link 
             href="/"
-            className="underline hover:text-purple-300"
+            className="underline text-purple-500 hover:text-purple-400"
           >
             ← back to home
           </Link>

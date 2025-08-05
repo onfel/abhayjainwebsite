@@ -15,17 +15,17 @@ export const metadata: Metadata = {
 
 export default function LaurusLabsThesis() {
   return (
-    <div className="min-h-screen bg-black text-purple-500 p-8 font-mono">
+    <div className="min-h-screen bg-black text-white p-8" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
       {/* Navigation */}
       <nav className="mb-16">
         <div className="flex space-x-8 text-lg">
-          <Link href="/" className="underline">
+          <Link href="/" className="underline text-purple-500 hover:text-purple-400">
             home
           </Link>
-          <Link href="/ledger" className="underline">
+          <Link href="/ledger" className="underline text-purple-500 hover:text-purple-400">
             ledger
           </Link>
-          <Link href="/about" className="underline">
+          <Link href="/about" className="underline text-purple-500 hover:text-purple-400">
             about me
           </Link>
         </div>
@@ -38,7 +38,7 @@ export default function LaurusLabsThesis() {
           <h1 className="text-3xl font-bold leading-tight">
             The Laurus Labs Metamorphosis: An Exercise in Antifragility
           </h1>
-          <div className="text-purple-400 space-y-2">
+          <div className="text-gray-400 space-y-2">
             <p>10 Feb 2025 • 12 min read</p>
             <p>by abhay jain</p>
           </div>
@@ -181,13 +181,13 @@ export default function LaurusLabsThesis() {
         <div className="pt-8 border-t border-purple-500 space-x-8">
           <Link 
             href="/ledger"
-            className="underline hover:text-purple-300"
+            className="underline text-purple-500 hover:text-purple-400"
           >
             ← back to ledger
           </Link>
           <Link 
             href="/"
-            className="underline hover:text-purple-300"
+            className="underline text-purple-500 hover:text-purple-400"
           >
             home
           </Link>
