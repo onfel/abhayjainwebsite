@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://abhayjain.com
+
+# Sitemaps
+Sitemap: https://abhayjain.com/sitemap.xml
