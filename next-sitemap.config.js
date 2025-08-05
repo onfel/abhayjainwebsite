@@ -8,7 +8,7 @@ module.exports = {
   exclude: ['/api/*'],
   additionalPaths: async (config) => [
     await config.transform(config, '/'),
-    await config.transform(config, '/about'),
+    await config.transform(config, '/about', { priority: 0.9 }),
     await config.transform(config, '/ledger'),
     await config.transform(config, '/ledger/solara-virtue-getting-wrecked'),
     await config.transform(config, '/ledger/laurus-labs-metamorphosis'),
