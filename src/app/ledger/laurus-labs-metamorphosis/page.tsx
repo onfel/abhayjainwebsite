@@ -175,6 +175,14 @@ export default function LaurusLabsThesis() {
           <p className="text-lg font-medium">
             Such is life.
           </p>
+
+          {/* Disclaimer */}
+          <div className="mt-12 pt-8 border-t border-gray-600 text-sm text-gray-400">
+            <p className="font-medium mb-2">Disclaimer:</p>
+            <p>
+              This analysis is for educational purposes only and should not be considered as investment advice. The author may have positions in the securities mentioned. Past performance does not guarantee future results. All investments carry risk of loss. Please consult with a qualified financial advisor before making any investment decisions. The views expressed are the author's personal opinions and do not constitute professional financial advice under Indian securities regulations.
+            </p>
+          </div>
         </article>
 
         {/* Navigation */}
