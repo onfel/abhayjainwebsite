@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "About Abhay Jain - Writer, Investor & Entrepreneur",
   description: "Learn about Abhay Jain, the 18-year-old founder of Lindy GEO who pivoted from fundamental equity research to build a digital media business for the AI-native web.",
   keywords: "Abhay Jain about, biography, entrepreneur, Lindy GEO founder, AI SEO",
+  alternates: {
+    canonical: "/about",
+  },
   openGraph: {
     title: "About Abhay Jain - Writer, Investor & Entrepreneur",
     description: "Learn about Abhay Jain, the 18-year-old founder of Lindy GEO who pivoted from fundamental equity research to build a digital media business for the AI-native web.",

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "The Laurus Labs Metamorphosis: An Exercise in Antifragility | Abhay Jain",
   description: "Investment thesis on Laurus Labs transformation from ARV company to high-end CDMO partner, analyzing antifragility in capital allocation by Abhay Jain.",
   keywords: "Laurus Labs, investment thesis, antifragility, CDMO, pharmaceutical, equity research, Abhay Jain",
+  alternates: {
+    canonical: "/ledger/laurus-labs-metamorphosis",
+  },
   openGraph: {
     title: "The Laurus Labs Metamorphosis: An Exercise in Antifragility",
     description: "Investment thesis on Laurus Labs transformation from ARV company to high-end CDMO partner, analyzing antifragility in capital allocation.",

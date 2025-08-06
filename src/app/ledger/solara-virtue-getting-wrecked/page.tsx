@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Solara: The Virtue of Getting Wrecked | Abhay Jain",
   description: "Investment thesis on Solara Active Pharma Sciences transformation from fragile Ibuprofen dependency to robust chemistry-driven platform by Abhay Jain.",
   keywords: "Solara Active Pharma Sciences, investment thesis, antifragility, CRAMS, pharmaceutical, equity research, Abhay Jain",
+  alternates: {
+    canonical: "/ledger/solara-virtue-getting-wrecked",
+  },
   openGraph: {
     title: "Solara: The Virtue of Getting Wrecked",
     description: "Investment thesis on Solara Active Pharma Sciences transformation from fragile Ibuprofen dependency to robust chemistry-driven platform.",

@@ -23,9 +23,6 @@ export const metadata: Metadata = {
   authors: [{ name: "Abhay Jain" }],
   creator: "Abhay Jain",
   metadataBase: new URL("https://www.abhayadityajain.com"),
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     type: "website",
     locale: "en_US",

@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "The Ledger - Financial Theses by Abhay Jain",
   description: "Investment insights and financial theses by Abhay Jain. Deep analysis on companies and market opportunities in the AI-native economy.",
   keywords: "Abhay Jain investment, financial thesis, equity research, investment insights, ledger",
+  alternates: {
+    canonical: "/ledger",
+  },
   openGraph: {
     title: "The Ledger - Financial Theses by Abhay Jain",
     description: "Investment insights and financial theses by Abhay Jain. Deep analysis on companies and market opportunities.",

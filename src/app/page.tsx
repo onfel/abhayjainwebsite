@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description: "Abhay Jain is a 19-year-old entrepreneur from New Delhi, running Lindy GEO - the first agency scaling brands by ensuring they rank first in LLM-Generated Answers.",
   keywords: "Abhay Jain, Lindy GEO, entrepreneur, investor, writer, AI, SEO, GEO, Delhi",
   authors: [{ name: "Abhay Jain" }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Abhay Jain - Entrepreneur, Investor & Writer",
     description: "19-year-old entrepreneur running Lindy GEO, the first agency scaling brands by ensuring they rank first in LLM-Generated Answers.",
